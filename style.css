@@ -1,26 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* nav-style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 24px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
     align-items: center;
 }
-.common-btn{
+
+.common-btn {
     font-family: "Inter", sans-serif;
     background-color: #1d4ed8;
     color: white;
@@ -29,20 +36,23 @@ nav ul{
     padding: 10px 20px;
     cursor: pointer;
 }
+
 .common-btn:hover {
-    background-color:#1d4ed8 ;
+    background-color: #1d4ed8;
     cursor: pointer;
 }
+
 nav a:hover {
     color: #1d4ed8;
     background-color: lightblue;
     border-radius: 6px;
 }
-nav a{
+
+nav a {
     padding: 6px 12px;
 }
 
-nav ul{
+nav ul {
     font-family: "Arimo", sans-serif;
     display: flex;
     list-style: none;
@@ -51,9 +61,52 @@ nav ul{
     margin-top: 5px;
     background-color: white;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #575757;
 }
+
 /* nav-style-end */
 
+
+
+/* Hero-section-style */
+
+.hero-section {
+    font-family: "Inter", sans-serif;
+    linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55));
+    background-image: url('./assets/banner.jpg');
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 829px;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.hero-container p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.09;
+    margin: 0;
+}

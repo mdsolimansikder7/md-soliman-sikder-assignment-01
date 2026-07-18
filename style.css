@@ -111,17 +111,6 @@ nav ul li a {
     line-height: 1.09;
     margin: 0;
 }
-.hero-button{
-    font-family: "Inter", sans-serif;
-    background-color: #1d4ed8;
-    color: white;
-    border: none;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 12px;
-    padding: 16px 36px;
-    cursor: pointer;
-}
 .hero-container button{
       margin-top: 400px;
 }

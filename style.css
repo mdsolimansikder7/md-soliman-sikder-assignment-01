@@ -357,3 +357,71 @@ nav ul li a {
     width: 100%;
 
 }
+
+/* Newsletter-style-start*/
+
+.newsletter{
+    padding: 80px 20px;
+    background: #f8fafc;
+}
+
+.newsletter-content{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0d1b2a;
+    margin-bottom: 16px;
+}
+
+.newsletter-content p{
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.newsletter-form input{
+    flex: 1;
+    max-width: 450px;
+    padding: 15px 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: .3s;
+}
+
+.newsletter-form input:focus{
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37,99,235,.15);
+}
+
+.newsletter-form button{
+    padding: 15px 28px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newsletter-form button:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(37,99,235,.25);
+}
+/*  Newsletter-style-end */

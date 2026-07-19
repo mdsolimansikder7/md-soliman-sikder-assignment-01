@@ -4,7 +4,8 @@
 }
 
 .container {
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -21,13 +22,6 @@ nav {
     padding: 12px 24px;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-}
-
 .common-btn {
     font-family: "Inter", sans-serif;
     background-color: #1d4ed8;
@@ -36,6 +30,7 @@ nav ul {
     border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .common-btn:hover {
@@ -141,13 +136,13 @@ nav ul li a {
 /* Hero=section-style-end */
 
 /* Speaker-style-start */
-.speakers-container{
+.speakers-container {
     max-width: 1320px;
     width: 90%;
     margin: 80px auto;
 }
 
-.speakers-container h2{
+.speakers-container h2 {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -155,13 +150,13 @@ nav ul li a {
     font-family: "Inter", sans-serif;
 }
 
-.speaker-grid{
+.speaker-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
-.card{
+.card {
     background: #fff;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
@@ -169,14 +164,14 @@ nav ul li a {
 }
 
 
-.card img{
+.card img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     display: block;
 }
 
-.category{
+.category {
     color: #2563eb;
     font-size: 11px;
     font-weight: 700;
@@ -186,7 +181,7 @@ nav ul li a {
     font-family: "Inter", sans-serif;
 }
 
-.card h3{
+.card h3 {
     font-size: 28px;
     font-weight: 700;
     padding: 0 20px;
@@ -194,11 +189,171 @@ nav ul li a {
     font-family: "Inter", sans-serif;
 }
 
-.design{
+.design {
     color: #6b7280;
     font-size: 15px;
     line-height: 1.5;
     padding: 0 20px 20px;
     font-family: "Inter", sans-serif;
 }
+
 /* Speaker-style-end */
+
+
+/* pricing-card-style-start */
+
+.card-container {
+    font-family: "Inter", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.card-header {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-header h2 {
+    height: 60px;
+    color: #0d1b2aFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.card-header p {
+    height: 24px;
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.pricing-card h3 {
+    height: 44px;
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+
+.pro-card h1 {
+    color: #ffffffFF;
+}
+
+.plan-name {
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pro-card .plan-name {
+    color: #93c5fdFF;
+}
+
+.person {
+    color: #888888FF;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.pro-card .person {
+    color: #ffffff80;
+}
+
+.pricing-card {
+    width: 370.66px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 20px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.pricing-card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.pro-card {
+    background-color: #0D1B2A;
+    color: #ffffffCC;
+}
+
+.pricing-card li::marker {
+    color: #2563ebFF;
+}
+
+.stand-btn {
+    background-color: transparent;
+    color: #2563ebFF;
+    border: 1px solid #2563ebFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 304.66px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stand-btn :hover{
+    background-color: #eff6ff;
+    border-color: #1d4ed8;
+}
+
+ .pricing-card .pro-btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 304.66px;
+    height: 45px;
+}
+.contact-btn{
+    background-color: #F8F9FB;
+    color: #2563ebFF;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 304.66px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.pricing-card hr {
+     border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 20px 0;
+    width: 100%;
+
+}

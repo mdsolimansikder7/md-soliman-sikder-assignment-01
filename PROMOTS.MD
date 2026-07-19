@@ -1,0 +1,2 @@
+For Newsletter Signup:
+Add a modern Newsletter section after the speakers section. Include a centered heading, a short description, an email input field, and a "Subscribe" button. Use a clean minimal design with rounded corners, balanced spacing, subtle hover effects, and make it fully responsive.

@@ -361,6 +361,7 @@ nav ul li a {
 /* Newsletter-style-start*/
 
 .newsletter{
+    font-family: "Inter", sans-serif;
     padding: 80px 20px;
     background: #f8fafc;
 }
